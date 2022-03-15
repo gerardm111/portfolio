@@ -1,0 +1,31 @@
+#WL-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 96%;
+    margin: 2%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+}
+
+#WL-text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 60%;
+    a{
+        background-color: white;
+        border: 1px solid rgb(235, 181, 100);
+        border-radius: 5px;
+        padding: 2px;
+        text-align: center;
+        width: 90px;
+        transition: width 0.5s;
+
+        &:hover{
+            width: 110px;
+            background-color: rgb(235, 181, 100);
+            cursor: pointer;
+        }
+    }
+}
