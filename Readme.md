@@ -1,4 +1,15 @@
 ## Credit
 https://bgjar.com/
-#1E3266
-rgba(53, 108, 177, 1)
+
+## TO DO
+- Experiences
+- Projets:
+    - liens
+    - images
+    - techno / languages
+- arrivées des sections les unes après les autres
+- Autres activitées ??
+- Formation:
+    - liens
+    - classements écoles
+    - bac ??
