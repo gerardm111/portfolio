@@ -1,0 +1,32 @@
+#F-main{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    width: 88%;
+    margin-top: 2%;
+    margin-left: 6%;
+    margin-right: 6%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+}
+
+#F-text{
+    text-align: center;
+    justify-content: space-between;
+
+    h2{
+        font-variant: small-caps;
+    }
+
+    h4{
+        font-weight: 300;
+    }
+}
+
+#F-items{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
