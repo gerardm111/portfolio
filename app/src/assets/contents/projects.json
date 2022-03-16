@@ -5,7 +5,7 @@
             "image": "projet_test.png",
             "date_debut": "10/2021",
             "date_fin": "02/2022",
-            "nb_collaborateurs": 4,
+            "nb_collaborateurs": "équipe de 4",
             "description": "En s'appuyant sur l’état actuel de la recherche, création d'une nouvelle méthode de génération d'IRM cérébrale contenant une tumeur en partant d'IRM cérébrale d'un individu sain. Le but est de créer un dataset de paires d'IRM sain-tumeur, utiles dans des modèles de détection d'anomalie. Generation d’images de synthèse contenant des anomalies avec : GAN, 3D data pre-processing, Pix2pix, Speckle, SPADE Normalization. Python.",
             "lien": "https://paris.fr",
             "categories": ["img", "med"]
@@ -15,7 +15,7 @@
             "image": "fakeMe.png",
             "date_debut": "04/2021",
             "date_fin": "04/2021",
-            "nb_collaborateurs": 2,
+            "nb_collaborateurs": "équipe de 2",
             "description": "Compétition Kaggle : analyse de données, détection de langue, pre-processing de texte et normalisation, Bert transformer network. Python. Note : A+ après présentation.",
             "lien": "https://www.kaggle.com/mahautgrard/team10",
             "categories": ["nlp", "kaggle"]
@@ -25,7 +25,7 @@
             "image": "projet_test.png",
             "date_debut": "12/2021",
             "date_fin": "02/2022",
-            "nb_collaborateurs": 1,
+            "nb_collaborateurs": "personel",
             "description": "Annotation de textes juridiques (GLOSS) comme base de dataset, Neural Legal Langage Models, Legal NLP pour classification.",
             "lien": "https://paris.fr",
             "categories": ["nlp"]
@@ -35,7 +35,7 @@
             "image": "fakeMe.png",
             "date_debut": "03/2021",
             "date_fin": "03/2021",
-            "nb_collaborateurs": 2,
+            "nb_collaborateurs": "équipe de 2",
             "description": "Compétition Kaggle : analyse de données, data augmentation et détection de contour, méthodeens embliste utilisant UNet encodeur-décodeur suivit par une classification linéaire. Python. Note : A+ après présentation. Dans le Top 3 des équipes.",
             "lien": "https://www.kaggle.com/charlottekennedy/challenge2-final-team10",
             "categories": ["img", "med", "kaggle"]
@@ -45,7 +45,7 @@
             "image": "fakeMe.png",
             "date_debut": "10/2021",
             "date_fin": "02/2021",
-            "nb_collaborateurs": 1,
+            "nb_collaborateurs": "personel",
             "description": "Travail de synthèse sur l’état actuel de la recherche autour de « Inverse Transparency », de ces liens avec « data privacy », des « Privacy-Enhancing Tools » et des « Transparency-Enhancing tools ». Elaboration de graphiques de synthèse. Enquête menée sur un échantillon de personnes.",
             "lien": "https://paris.fr",
             "categories": ["paper"]
@@ -55,7 +55,7 @@
             "image": "fakeMe.png",
             "date_debut": "10/2019",
             "date_fin": "02/2020",
-            "nb_collaborateurs": 1,
+            "nb_collaborateurs": "personel",
             "description": "Ecrit sous la forme d’un dossier de magazine, il explore les liens entre les stéréotypes, les biais cognitifs et les inégalités de genre. Note : A+",
             "lien": "https://paris.fr",
             "categories": ["paper"]
@@ -65,7 +65,7 @@
             "image": "fakeMe.png",
             "date_debut": "10/2019",
             "date_fin": "02/2020",
-            "nb_collaborateurs": 7,
+            "nb_collaborateurs": "équipe de 7",
             "description": "Sac connecté avec plusieurs fonctionnalités : GPS, suivi d’activité, circulation sécurisée. Inclus un sac à dos avec des clignotants, un Arduino, une batterie et une application Android. J’ai pris en charge la base de données et la communication client-serveur (Bluetooth). Note : A",
             "lien": "https://paris.fr",
             "categories": ["web"]
@@ -77,7 +77,7 @@
             "image": "fakeMe.png",
             "date_debut": "10/2021",
             "date_fin": "02/2022",
-            "nb_collaborateurs": 4,
+            "nb_collaborateurs": "team of 4",
             "description": "Generating anomalies to balance medical datasets according to the state-of-the-art research. Different kind of GANs, Pix2pix, SPADE Normalization, Speckle, data pre-processing.",
             "lien": "https://paris.fr",
             "categories": ["img", "med"]
@@ -87,7 +87,7 @@
             "image": "projet_test.png",
             "date_debut": "12/2021",
             "date_fin": "02/2022",
-            "nb_collaborateurs": 1,
+            "nb_collaborateurs": "personal",
             "description": "Legal texts annotation (GLOSS) as a starting point for the dataset, Neural Legal Langage Model, Legal NLP for classification.",
             "lien": "https://paris.fr",
             "categories": ["nlp"]
@@ -97,7 +97,7 @@
             "image": "projet_test.png",
             "date_debut": "03/2021",
             "date_fin": "03/2021",
-            "nb_collaborateurs": 2,
+            "nb_collaborateurs": "team of 2",
             "description": "Kaggle challenge: data analysis, data augmentation and contour detection, ensemble method using UNet encoder-decoder followed by a linear classifier. Python. A+ grade after presentation. Top 3 teams.",
             "lien": "https://paris.fr",
             "categories": ["img", "kaggle"]
@@ -107,7 +107,7 @@
             "image": "projet_test.png",
             "date_debut": "04/2021",
             "date_fin": "04/2021",
-            "nb_collaborateurs": 2,
+            "nb_collaborateurs": " team of 2",
             "description": "Kaggle challenge: Data analysis, language detection, text pre-processing and text normalization, Bert transformer network. Python. A+ grade after presentation.",
             "lien": "https://paris.fr",
             "categories": ["nlp", "kaggle"]
@@ -117,7 +117,7 @@
             "image": "projet_test.png",
             "date_debut": "10/2021",
             "date_fin": "02/2021",
-            "nb_collaborateurs": 1,
+            "nb_collaborateurs": "personal",
             "description": "Exploring inverse transparency and its relations with transparency-enhancing and privacy-enhancing tools. Taxonomy.",
             "lien": "https://paris.fr",
             "categories": ["paper"]
@@ -127,7 +127,7 @@
             "image": "projet_test.png",
             "date_debut": "10/2019",
             "date_fin": "02/2020",
-            "nb_collaborateurs": 1,
+            "nb_collaborateurs": "personal",
             "description": "Written in the form of a magazine folder, the essay explores the links between stereotypes, cognitive biases, and gender inequalities. A grade.",
             "lien": "https://paris.fr",
             "categories": ["paper"]

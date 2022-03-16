@@ -49,7 +49,7 @@ export default function Projects(){
         return(
             <div id="PR-main">
                 <div id="PR-text">
-                    <h2>Portfolio</h2>
+                    <h1>Portfolio</h1>
                     <h4>Découvrez certains des projets sur lesquels j’ai travaillé</h4>
                 </div>
             <div id="PR-choice">
@@ -86,7 +86,7 @@ export default function Projects(){
         return(
             <div id="PR-main">
                 <div id="PR-text">
-                    <h2>Portfolio</h2>
+                    <h1>Portfolio</h1>
                     <h4>Take a look at some of the projects I have been working on</h4>
                 </div>
             <div id="PR-choice">

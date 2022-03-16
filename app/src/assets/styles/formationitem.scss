@@ -7,6 +7,29 @@
 
     img{
         width: 100px;
-        height: 150px;
+        height: 100px;
+        object-fit: contain;
     }
+}
+
+#FI-left{
+    margin-right: 10px;
+
+    a{
+        &:hover{
+            opacity: 0.6;
+        }
+    }
+}
+
+#FI-right{
+    h2{
+        font-variant: small-caps;
+        margin: 0px;
+    }
+}
+
+#FI-dates{
+    font-weight: 300;
+    margin: 0px;
 }

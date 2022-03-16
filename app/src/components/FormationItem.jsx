@@ -12,10 +12,13 @@ export default function FormationItem({formation}){
     return(
         <div id="FI-main">
             <div id="FI-left">
-                <img src={logos[formation.logo]} alt="logo Telecom Paris"/>
+                <a href={formation.lien}>
+                    <img src={logos[formation.logo]} alt="logo Telecom Paris"/>
+                </a>
             </div>
             <div id="FI-right">
                 <h2>{formation.diplôme}</h2>
+                <h4 id="FI-dates">{formation.date_debut} - {formation.date_fin}</h4>
                 <h4>{formation.description}</h4>
             </div>
         </div>

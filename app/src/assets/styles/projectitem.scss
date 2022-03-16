@@ -18,12 +18,14 @@
 
     h5{
         color: #767676;
+        margin: 0px;
     }
 }
 
 #PRI-info{
     h2{
         font-variant: small-caps;
+        margin-bottom: 0px;
     }
     a{
         color: black;
@@ -37,6 +39,12 @@
             cursor: pointer;
         }
     }
+}
+
+#PRI-date_nb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #PRI-tags{

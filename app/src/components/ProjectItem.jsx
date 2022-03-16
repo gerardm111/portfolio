@@ -8,12 +8,15 @@ function importAll(r){
 }
 
 export default function ProjectItem({project}){
-    const images = importAll(require.context('../assets/img', false, /\.(png|jpe?g|svg)$/));
+    const images = importAll(require.context('../assets/img', false, /\.(png|jpe?g)$/));
     return(
         <div id="PRI-main">
             <div id="PRI-header">
                 <img src={images[project.image]} alt="Couverture projet" />
-                <h5>{project.date_debut} - {project.date_fin}</h5>
+                <div id="PRI-date_nb">
+                    <h5>{project.date_debut} - {project.date_fin}</h5>
+                    <h5>{project.nb_collaborateurs}</h5>
+                </div>
             </div>
             <div id="PRI-info">
                 <h2>{project.title}</h2>

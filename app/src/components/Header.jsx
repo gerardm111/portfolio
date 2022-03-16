@@ -13,12 +13,16 @@ export default function Header (){
 
     useEffect(() => {
         if(langage === "en"){
-            document.getElementById("en").style.backgroundColor = "#767676";
+            document.getElementById("en").style.backgroundColor = "rgb(235, 181, 100)";
             document.getElementById("fr").style.backgroundColor = "white";
+            document.getElementById("en").style.color = "white";
+            document.getElementById("fr").style.color = "rgb(235, 181, 100)";
         }
         if(langage === "fr"){
-            document.getElementById("fr").style.backgroundColor = "#767676";
+            document.getElementById("fr").style.backgroundColor = "rgb(235, 181, 100)";
             document.getElementById("en").style.backgroundColor = "white";
+            document.getElementById("en").style.color = "rgb(235, 181, 100)";
+            document.getElementById("fr").style.color = "white";
         }
     },[langage]);
 
@@ -38,8 +42,8 @@ export default function Header (){
                     </a>
                 </div>
                 <div id="HD-anchor">
-                    <a>Formation</a>
-                    <a>Projets</a>
+                    <a href="#F-jump" style={{"textDecoration": "none"}}>Formation</a>
+                    <a href="#PR-jump" style={{"textDecoration": "none"}}>Projets</a>
                 </div>
                 <div id="HD-langage">
                     <button onClick={() => {setLangage("fr")}} id="fr">fr</button>
@@ -64,8 +68,8 @@ export default function Header (){
                     </a>
                 </div>
                 <div id="HD-anchor">
-                    <a>Education</a>
-                    <a>Projects</a>
+                    <a href="#F-jump" style={{"textDecoration": "none"}}>Education</a>
+                    <a href="#PR-jump" style={{"textDecoration": "none"}}>Projects</a>
                 </div>
                 <div id="HD-langage">
                     <button onClick={() => {setLangage("fr")}} id="fr">fr</button>
