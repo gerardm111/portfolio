@@ -9,6 +9,7 @@
     position: fixed;
     top: 0;
     background-color: rgba(235, 181, 100, 1);
+    z-index: 100;
 }
 
 #HD-langage{
@@ -57,6 +58,7 @@
     align-items: center;
     width: 40%;
     font-size: 20px;
+    color: black;
 
     a{
         margin: 10%;

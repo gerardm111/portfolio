@@ -1,0 +1,54 @@
+{
+    "fr" : [
+        {
+            "title": "Telecom Etude",
+            "logo": "",
+            "date_debut": "10/2019",
+            "date_fin": "05/2021",
+            "description": "blabla bla bla",
+            "lien": "https://paris.fr"
+        },
+        {
+            "title": "Professeur particulier",
+            "logo": "",
+            "date_debut": "09/2017",
+            "date_fin": "",
+            "description": "blabla bla bla",
+            "lien": "https://paris.fr"
+        },
+        {
+            "title": "Equitation",
+            "logo": "",
+            "date_debut": "2014",
+            "date_fin": "",
+            "description": "blabla bla bla",
+            "lien": "https://paris.fr"
+        }
+    ],
+    "en" : [
+        {
+            "title": "Telecom Etude",
+            "logo": "",
+            "date_debut": "10/2019",
+            "date_fin": "05/2021",
+            "description": "blabla bla bla",
+            "lien": "https://paris.fr"
+        },
+        {
+            "title": "Private lecturer",
+            "logo": "",
+            "date_debut": "09/2017",
+            "date_fin": "",
+            "description": "blabla bla bla",
+            "lien": "https://paris.fr"
+        },
+        {
+            "title": "Horse riding",
+            "logo": "",
+            "date_debut": "2014",
+            "date_fin": "",
+            "description": "blabla bla bla",
+            "lien": "https://paris.fr"
+        }
+    ]
+}

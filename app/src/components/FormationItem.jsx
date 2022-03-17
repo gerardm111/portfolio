@@ -13,7 +13,7 @@ export default function FormationItem({formation}){
         <div id="FI-main">
             <div id="FI-left">
                 <a href={formation.lien}>
-                    <img src={logos[formation.logo]} alt="logo Telecom Paris"/>
+                    <img src={logos[formation.logo]} alt="logo"/>
                 </a>
             </div>
             <div id="FI-right">

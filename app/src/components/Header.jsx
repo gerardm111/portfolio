@@ -44,6 +44,7 @@ export default function Header (){
                 <div id="HD-anchor">
                     <a href="#F-jump" style={{"textDecoration": "none"}}>Formation</a>
                     <a href="#PR-jump" style={{"textDecoration": "none"}}>Projets</a>
+                    <a href="#EXP-jump" style={{"textDecoration": "none"}}>Experiences</a>
                 </div>
                 <div id="HD-langage">
                     <button onClick={() => {setLangage("fr")}} id="fr">fr</button>
@@ -70,6 +71,7 @@ export default function Header (){
                 <div id="HD-anchor">
                     <a href="#F-jump" style={{"textDecoration": "none"}}>Education</a>
                     <a href="#PR-jump" style={{"textDecoration": "none"}}>Projects</a>
+                    <a href="#EXP-jump" style={{"textDecoration": "none"}}>Experiences</a>
                 </div>
                 <div id="HD-langage">
                     <button onClick={() => {setLangage("fr")}} id="fr">fr</button>

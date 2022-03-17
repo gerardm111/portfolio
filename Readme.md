@@ -2,11 +2,11 @@
 https://bgjar.com/
 
 ## TO DO
-- Experiences
+- Experiences (ajouter equitation ici?)
 - Projets:
     - liens
-    - images
     - techno / languages
+    - ajouter ceux qu'il manque
 - arrivées des sections les unes après les autres
 - Autres activitées ??
 - Formation:

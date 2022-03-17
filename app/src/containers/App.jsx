@@ -6,6 +6,7 @@ import Projects from './Projects';
 import Formation from './Formation';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import Experiences from './Experiences';
 
 export default function App (){
  return(
@@ -16,6 +17,8 @@ export default function App (){
       <Formation />
       <span id="PR-jump"></span>
       <Projects />
+      <span id="EXP-jump"></span>
+      <Experiences />
       <span id="C-jump"></span>
       <Contact />
       <Footer />

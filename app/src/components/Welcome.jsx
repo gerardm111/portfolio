@@ -21,7 +21,7 @@ export default function Welcome (){
                     <h1>Mahaut Gerard</h1>
                     <h3>Engineer Telecom Paris & Msc. Informatics Technische Universität München</h3>
                     <h3>Artificial intelligence and data science</h3>
-                    <a>Contact</a>
+                    <a href="#C-jump" style={{"textDecoration": "none"}}>Contact</a>
                 </div>
                 <div id="WL-img">
                     <img src={fakeMe} alt="My photo" />
@@ -36,7 +36,7 @@ export default function Welcome (){
                     <h1>Mahaut Gérard</h1>
                     <h3>Ingénieure Télécom Paris & Msc. Informatique Technische Universität München</h3>
                     <h3>Intelligence artificielle et data science</h3>
-                    <a>Contact</a>
+                    <a href="#C-jump" style={{"textDecoration": "none"}}>Contact</a>
                 </div>
                 <div id="WL-img">
                     <img src={fakeMe} alt="Ma photo" />
