@@ -2,14 +2,18 @@
 https://bgjar.com/
 
 ## TO DO
-- Experiences (ajouter equitation ici?)
+
 - Projets:
     - liens
-    - techno / languages
     - ajouter ceux qu'il manque
 - arrivées des sections les unes après les autres
-- Autres activitées ??
 - Formation:
     - liens
     - classements écoles
     - bac ??
+- Changer CV dans la page Contact.jsx
+
+
+OTHER
+- Experiences (ajouter equitation ici?)
+- Autres activitées ??

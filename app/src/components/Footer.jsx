@@ -5,7 +5,8 @@ export default function Footer (){
     return(
         <div id='FO-main'>
                 <a>Legal Rule</a>
-                <h4> | © 2022 Mahaut Gérard</h4>
+                <span></span>
+                <h4>| © 2022 Mahaut Gérard</h4>
         </div>
     )
 }
