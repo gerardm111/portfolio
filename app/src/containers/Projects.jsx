@@ -16,12 +16,12 @@ export default function Projects(){
     useEffect(() => {
         for(let i=0; i < listChoices.length; i++){
             if (portfolioChoice === listChoices[i]){
-                document.getElementById(listChoices[i]).style.backgroundColor = "rgb(235, 181, 100)";
-                document.getElementById(listChoices[i]).style.color = "white";
+                document.getElementById(listChoices[i]).style.backgroundColor = "rgba(8, 19, 63, 1)";
+                document.getElementById(listChoices[i]).style.color = "rgb(235, 181, 100)";
             }
             else{
-                document.getElementById(listChoices[i]).style.backgroundColor = "white";
-                document.getElementById(listChoices[i]).style.color = "rgb(235, 181, 100)";
+                document.getElementById(listChoices[i]).style.backgroundColor = "rgb(235, 181, 100)";
+                document.getElementById(listChoices[i]).style.color = "rgba(8, 19, 63, 1)";
             }
         };
     },[portfolioChoice]);

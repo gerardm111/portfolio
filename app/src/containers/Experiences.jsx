@@ -4,6 +4,8 @@ import { langageState } from "../components/Header";
 import "../assets/styles/experiences.scss";
 import experienceContent from "../assets/contents/experiences.json";
 import ExperienceItem from "../components/ExperienceItem";
+import telecomEtude from "../assets/logo/telecom_etude.svg";
+import telecomEtudeB from "../assets/logo/telecom_etude_black.svg";
 
 export default function Experiences () {
     const langageStateGet = selector({
@@ -17,13 +19,9 @@ export default function Experiences () {
     if (displayLangage === "fr"){
     return(
         <div id="EXP-main">
-            <h1>Experience</h1>
-            <div id="F-items">
-                {experienceContent.fr.map((p)=>(
-                    <div key={p.title}>
-                        <ExperienceItem experience={p} />
-                    </div>
-                ))}
+            <h1>J'ai travaillé avec:</h1>
+            <div id="EXP-ent">
+            <a href="https://telecom-etude.fr/"><img onMouseEnter={(e) =>{e.target.src=telecomEtude}} onMouseLeave={(e) =>{e.target.src=telecomEtudeB}} src={telecomEtudeB} /></a>
             </div>
         </div>
     )
@@ -31,13 +29,9 @@ export default function Experiences () {
     if (displayLangage === "en"){
         return(
         <div id="EXP-main">
-            <h1>Experience</h1>
-            <div id="F-items">
-                {experienceContent.en.map((p)=>(
-                    <div key={p.title}>
-                        <ExperienceItem experience={p} />
-                    </div>
-                ))}
+            <h1>I have worked with:</h1>
+            <div id="EXP-ent">
+                <a href="https://telecom-etude.fr/"><img onMouseEnter={(e) =>{e.target.src=telecomEtude}} onMouseLeave={(e) =>{e.target.src=telecomEtudeB}} src={telecomEtudeB} /></a>
             </div>
         </div>
         )

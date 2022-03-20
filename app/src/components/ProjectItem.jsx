@@ -34,24 +34,26 @@ export default function ProjectItem({project}){
                 </div>
             </div>
             <div id="PRI-info">
-                <h2>{project.title}</h2>
-                <div id="PRI-infography">
-                    <div id="PRI-tags">
-                        {project.categories.map((p)=>(
-                            <div key={p}>
-                                <a>{dictChoices[p]}</a>
-                            </div>
-                        ))}
+                <div id="PRI-info1">
+                    <h2>{project.title}</h2>
+                    <div id="PRI-infography">
+                        <div id="PRI-tags">
+                            {project.categories.map((p)=>(
+                                <div key={p}>
+                                    <a>{dictChoices[p]}</a>
+                                </div>
+                            ))}
+                        </div>
+                        <div id="PRI-techno">
+                        {project.techno.map((t)=>(
+                                <div key={t}>
+                                    <img src={logos[t+".svg"]} />
+                                </div>
+                            ))}
+                        </div>
                     </div>
-                    <div id="PRI-techno">
-                    {project.techno.map((t)=>(
-                            <div key={t}>
-                                <img src={logos[t+".svg"]} />
-                            </div>
-                        ))}
-                    </div>
+                    <h5>{project.description}</h5>
                 </div>
-                <h5>{project.description}</h5>
                 <div id="PRI-liens">
                     <h5>Pour en savoir plus: </h5>
                 {liens.map((l)=>(
