@@ -7,7 +7,7 @@
             "date_fin": "02/2022",
             "nb_collaborateurs": "équipe de 4",
             "description": "En s'appuyant sur l’état actuel de la recherche, création d'une nouvelle méthode de génération d'IRM cérébrale contenant une tumeur en partant d'IRM cérébrale d'un individu sain. Le but est de créer un dataset de paires d'IRM sain-tumeur, utiles dans des modèles de détection d'anomalie. Generation d’images de synthèse contenant des anomalies avec : GAN, 3D data pre-processing, Pix2pix, Speckle, SPADE Normalization. Python.",
-            "lien": ["https://paris.fr"],
+            "lien": ["https://github.com/gerardm111/MLMI", "mlmi_report.pdf"],
             "categories": ["img", "med"],
             "techno": ["python", "pytorch"]
         },
@@ -29,7 +29,7 @@
             "date_fin": "02/2022",
             "nb_collaborateurs": "personel",
             "description": "Annotation de textes juridiques (GLOSS) comme base de dataset, Neural Legal Langage Models, Legal NLP pour classification.",
-            "lien": ["https://paris.fr"],
+            "lien": ["https://github.com/gerardm111/LDSI", "MG_LDSI_W2021_Project.pdf", "LDSI-Literature_survey_MG.pdf"],
             "categories": ["nlp"],
             "techno": ["python", "gloss"]
         },
@@ -51,7 +51,7 @@
             "date_fin": "02/2021",
             "nb_collaborateurs": "personel",
             "description": "Travail de synthèse sur l’état actuel de la recherche autour de « Inverse Transparency », de ces liens avec « data privacy », des « Privacy-Enhancing Tools » et des « Transparency-Enhancing tools ». Elaboration de graphiques de synthèse. Enquête menée sur un échantillon de personnes.",
-            "lien": ["Seminar_Inverse_transparency.pdf", "https://paris.fr"],
+            "lien": ["Seminar_Inverse_transparency.pdf"],
             "categories": ["paper"],
             "techno": []
         },
@@ -62,9 +62,20 @@
             "date_fin": "02/2020",
             "nb_collaborateurs": "personel",
             "description": "Ecrit sous la forme d’un dossier de magazine, il explore les liens entre les stéréotypes, les biais cognitifs et les inégalités de genre. Note : A+",
-            "lien": ["https://paris.fr"],
+            "lien": ["PACE.pdf"],
             "categories": ["paper"],
             "techno": []
+        },
+        {
+            "title": "Application web",
+            "image": "projet_test.png",
+            "date_debut": "10/2020",
+            "date_fin": "12/2020",
+            "nb_collaborateurs": "personel",
+            "description": "Implémentation d’une application web présentant les chiffres en temps réel de la covid19 pour le monde et pays par pays. Prise en charge d’une section de nouvelles. Possibilité d'authentification pour avoir accès à des fonctionalités supplémentaires. Apprentissage rapide d’un nouveau langage de programmation pour ce projet (Typescript, Angular).",
+            "lien": ["https://covid19-fee7a.web.app/home-page", "https://github.com/gerardm111/covid19"],
+            "categories": ["web"],
+            "techno": ["typeScript", "angular", "html", "css"]
         },
         {
             "title": "Safe and Smart Bag",
@@ -73,9 +84,20 @@
             "date_fin": "02/2020",
             "nb_collaborateurs": "équipe de 7",
             "description": "Sac connecté avec plusieurs fonctionnalités : GPS, suivi d’activité, circulation sécurisée. Inclus un sac à dos avec des clignotants, un Arduino, une batterie et une application Android. J’ai pris en charge la base de données et la communication client-serveur (Bluetooth). Note : A",
-            "lien": ["https://paris.fr"],
+            "lien": [],
             "categories": [],
             "techno": ["js", "postgres"]
+        },
+        {
+            "title": "Présentation web synchronisée",
+            "image": "projet_test.png",
+            "date_debut": "06/2020",
+            "date_fin": "06/2020",
+            "nb_collaborateurs": "équipe de 3",
+            "description": "Implémentation d’une présentation synchronisée entre plusieurs écrans pour différents types de contenus : documents, vidéos. Un server rend possible la synchronisation. J’ai pris en charge le développement de la partie frontend avec html et css.",
+            "lien": [],
+            "categories": ["web"],
+            "techno": ["js", "html", "css"]
         }
     ],
     "en": [
@@ -86,7 +108,7 @@
             "date_fin": "02/2022",
             "nb_collaborateurs": "team of 4",
             "description": "Generating anomalies to balance medical datasets according to the state-of-the-art research. Different kind of GANs, Pix2pix, SPADE Normalization, Speckle, data pre-processing.",
-            "lien": ["https://paris.fr"],
+            "lien": ["https://github.com/gerardm111/MLMI", "mlmi_report.pdf"],
             "categories": ["img", "med"],
             "techno": ["python", "pytorch"]
         },
@@ -97,7 +119,7 @@
             "date_fin": "02/2022",
             "nb_collaborateurs": "personal",
             "description": "Legal texts annotation (GLOSS) as a starting point for the dataset, Neural Legal Langage Model, Legal NLP for classification.",
-            "lien": ["https://paris.fr"],
+            "lien": ["https://github.com/gerardm111/LDSI", "MG_LDSI_W2021_Project.pdf", "LDSI-Literature_survey_MG.pdf"],
             "categories": ["nlp"],
             "techno": ["python", "gloss"]
         },
@@ -130,7 +152,7 @@
             "date_fin": "02/2021",
             "nb_collaborateurs": "personal",
             "description": "Exploring inverse transparency and its relations with transparency-enhancing and privacy-enhancing tools. Taxonomy.",
-            "lien": ["https://paris.fr"],
+            "lien": ["Seminar_Inverse_transparency.pdf"],
             "categories": ["paper"],
             "techno": []
         },
@@ -141,7 +163,7 @@
             "date_fin": "02/2020",
             "nb_collaborateurs": "personal",
             "description": "Written in the form of a magazine folder, the essay explores the links between stereotypes, cognitive biases, and gender inequalities. A grade.",
-            "lien": ["https://paris.fr"],
+            "lien": ["PACE_short_EN"],
             "categories": ["paper"],
             "techno": []
         }

@@ -10,6 +10,7 @@
     top: 0;
     background-color: rgba(235, 181, 100, 1);
     z-index: 100;
+    transition: all 2s;
 }
 
 #HD-langage{
@@ -92,4 +93,20 @@
             cursor: pointer;
         }
     }
+}
+
+.HD-scrolled{
+    background-color:#08133f !important;
+    
+    div{
+        a{
+            color: rgb(235, 181, 100) !important;
+
+            &:hover{
+                color: white !important;
+            }
+        }
+        
+    }
+    
 }

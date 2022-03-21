@@ -5,3 +5,12 @@ body{
     margin: 0px;
     background-color: #FBFBFD;
 }
+
+.elem-show{
+    opacity: 0%;
+    transition: all 2s;
+}
+
+.elem-show-anim{
+    opacity: 100%;
+}

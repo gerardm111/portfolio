@@ -10,6 +10,7 @@ export const portfolioState = atom({
     default: 'all',
 });
 const listChoices = ["all", "nlp", "img", "kaggle", "med", "paper", "web"];
+
 export default function Projects(){
     let tempProjectList = [];
     const [portfolioChoice, setPortfolioChoice] = useRecoilState(portfolioState);

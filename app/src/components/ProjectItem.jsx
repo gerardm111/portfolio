@@ -55,7 +55,12 @@ export default function ProjectItem({project}){
                     <h5>{project.description}</h5>
                 </div>
                 <div id="PRI-liens">
-                    <h5>Pour en savoir plus: </h5>
+                    {
+                        (liens.length === 0) && (liens_pdf.length === 0) ?
+                        null
+                        :
+                        <h5>Pour en savoir plus: </h5>
+                    }
                 {liens.map((l)=>(
                         <div key={l}>
                             <a href={l}><i className="gg-terminal"></i></a>

@@ -1,17 +1,51 @@
 #WL-main{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+    height: 700px;
+    h1{
+        font-variant: small-caps;
+    }
+}
+
+#WL-wl{
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 96%;
-    padding-right: 2%;
-    padding-left: 2%;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.151);
-    background-image: url("../img/Polygon Luminary.svg");
+    height: 600px;
+    width: 88%;
+    padding-right: 6%;
+    padding-left: 6%;
+    background-image: url("../img/Polygon Luminary(1).svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    height: 600px;
+    background-attachment: fixed;
+}
+
+#WL-sum{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 88%;
+    padding-right: 6%;
+    padding-left: 6%;
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url("../img/Polygon Luminary(1).svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+
+    img{
+        width: 100px;
+        height: 100px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
 }
 
 #WL-text{
@@ -37,4 +71,17 @@
             color:rgba(8, 19, 63, 1);
         }
     }
+}
+
+#WL-ds, #WL-ml{
+    display: flex;
+    flex-direction: row;
+    width: 44%;
+}
+
+#WL-description{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+
 }

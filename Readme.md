@@ -4,11 +4,12 @@ https://bgjar.com/
 ## TO DO
 
 - Projets:
-    - liens
+    - liens (safe and smart bag?, presentations kaggle)
     - ajouter ceux qu'il manque
-- arrivées des sections les unes après les autres
+    - ajouter techno pytorch / tensorflow
+    - images
+    - icône site web covid19
 - Formation:
-    - liens
     - classements écoles
     - bac ??
 - Changer CV dans la page Contact.jsx
