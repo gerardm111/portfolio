@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-top: 60px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.151);
     height: 700px;
     h1{
@@ -58,7 +59,10 @@
         background-color: rgba(8, 19, 63, 1);
         border: 1px solid rgb(235, 181, 100);
         border-radius: 5px;
-        padding: 2px;
+        padding-right: 2px;
+        padding-left: 2px;
+        padding-top: 2px;
+        padding-bottom: 2px;
         text-align: center;
         width: 90px;
         transition: width 0.5s;
@@ -84,4 +88,47 @@
     flex-direction: column;
     padding-left: 40px;
 
+}
+
+@media (max-width: 1000px) {
+    #WL-main{
+        height: auto;
+    }
+    #WL-wl{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    #WL-img{
+        display: none;
+    }
+    #WL-text{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        h1{
+            font-size: 50px;
+        }
+        a{
+            width: 90%;
+            &:hover{
+                width: 100%;
+            }
+        }
+    }
+    #WL-sum{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: auto;
+    }
+    #WL-ds, #WL-ml{
+        width: 100%;
+    }
+    #WL-description{
+        h1{
+            margin-bottom: -10px;
+        }
+    }
 }

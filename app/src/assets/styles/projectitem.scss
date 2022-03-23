@@ -138,3 +138,30 @@
     justify-content: left;
     justify-content:  space-between;
 }
+
+@media (max-width: 1000px) {
+    #PRI-main{
+        scroll-snap-align: start;
+        height: 80vh;
+        
+    }
+    #PRI-info{
+        h2{
+            margin-top: 0px;
+        }
+        h5{
+            margin-bottom: 0px;
+        }
+    }
+    #PRI-liens{
+        h5{
+            margin-top: 0px;
+        }
+    }
+    #PRI-info1{
+        h5{
+            max-height: 13vh;
+            overflow-y: scroll;
+        }
+    }
+}

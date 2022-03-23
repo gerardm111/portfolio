@@ -110,3 +110,40 @@
     }
     
 }
+
+@media (max-width: 1000px) {
+    #HD-main{
+        width: 100vw;
+    }
+    #HD-langage{
+        width: 20%;
+        margin-right: 2px;
+        button{
+            width: 49%;
+        }
+        #en{
+            border-bottom-right-radius: 1px;
+            border-top-right-radius: 1px;
+            border-bottom-left-radius: 1px;
+            border-top-left-radius: 1px;
+        }
+        #fr{
+            border-bottom-left-radius: 1px;
+            border-top-left-radius: 1px;
+            border-bottom-right-radius: 1px;
+            border-top-right-radius: 1px;
+        }
+    }
+    #HD-anchor{
+        width: 60%;
+        a{
+            margin: 5px;
+        }
+    }
+    #HD-social{
+        width: 20%;
+        a{
+            margin: 1px;
+        }
+    }
+}

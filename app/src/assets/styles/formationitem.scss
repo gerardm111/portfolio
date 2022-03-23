@@ -33,3 +33,10 @@
     font-weight: 300;
     margin: 0px;
 }
+
+@media (max-width: 1000px) {
+    #FI-main{
+        width: auto;
+        margin: 2px;
+    }
+}
